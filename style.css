@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border: 5px solid black;
+    margin-left: 500px;
+    margin-top: 10PX;
+    align-items: center;
+    text-align: center;
+}
+
+/*Parte barra Dojonary*/
+.barra{
+    display: flex;
+    background-color: rgb(194, 192, 192);
+    justify-content: space-between;
+    margin-left: 50px;
+    width: 600px;
+    height: 40px;
+}
+.barra h1{
+    margin-left: 10px;
+    margin-top: -5px;
+    font-family: cursive;
+}
+.barra input{
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+}
+.barra button{
+    width: 90px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: white;
+    background-color: skyblue;
+}
+/*Bloques Ninja*/
+/*Bloque Ninja1*/
+.bloquesninja{
+    display: flex;
+    padding: 40px;
+    position: absolute;
+}
+.ninja1, .ninja2{
+    border: 3px solid;
+    width: 400px;
+    height: 150px;
+}
+.ninja1 h1, .ninja2 h1{
+    margin-left: -300px;
+    font-family: cursive;
+
+}
+.p1, .p4{
+    position: relative;
+    margin-left: -300px;
+    font-family: cursive;
+}
+.p2, .p5{
+    margin-left: -300px;
+    font-size: 15px;
+    font-family: cursive;
+}
+.ninja1 button, .ninja2 button{
+    margin-left: -300px;
+    margin-top: 15px;
+    background-color: rgb(252, 252, 141);
+    width: 80px;
+    height: 25px;
+}
+.p3, .p6{
+    margin-left: 90px;
+    margin-top: -90px;
+    font-size: 18px;
+    font-family: cursive;
+}
+/*Bloque Ninja2*/
+.ninja2{
+    margin-top: 10px;
+}
+.dojonary2{
+    border: 3px solid;
+    width: 200px;
+    height: 100px;
+    margin-left: 30px;
+}
+.dojonary2 p{
+    font-family: cursive;
+}
+.dojonary2 button{
+    margin-top: 15px;
+    width: 150px;
+    padding: 5px;
+    background-color: rgba(0, 128, 0, 0.637);
+}
